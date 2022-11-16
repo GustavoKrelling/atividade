@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Aula Sobre Branchs</h1>
+    <p>
+        # Branchs
+
+        São ramificações do projeto, o qual permite vários desenvolvedores, trabalharem em diferentes funcionalidades, sem bugar a versão estável.
+        
+        <br>
+        
+        ## Principais
+        
+        Branch main -> o que é branch principal, ou seja, a branch estável da aplicação. Versão é disponibilizado  aos clientes.
+        <br>
+        
+        
+        Branch developer -> é a branch utilizada pelos testers. Os quais vão testar as novas funcionalidades, correções de bugs, etc.
+        
+        <br>
+        
+        ## Outras branchs
+        
+        Para cada funcionalidade ou correção de bugs é criada uma nova branch.
+        
+        <br>
+        
+        ### Padrões para criar nomes de branchs
+        
+        
+        
+        Para correção de bugs: fix_identificacao_do_bug
+        
+        Exemplo: fix_botao_de_login, fix_cor_do_cabecalho
+        
+        <br>
+        
+        Para funcionalidades:
+        
+        feat_identificacao_da_nova_funcionalidade
+        
+        Exemplo: feat_integracao_com_google, feat_nova_tela_de_contato
+        
+        <br>
+        
+        Para atualizar documentação: doc_identificacao_da_alteracao
+        
+        Exemplo: doc_adicionada_nova_imagem
+        
+        <br>
+        
+        Para criação/alteração de tarefas que não interfere no código: chore_identificacao_da_modificacao
+        
+        Exemplo: chore_atualizada_a_versao_do_banco
+        
+        <br>
+        
+        ## Comandos para trabalhar com branchs
+        
+        ### Criação de novas branchs
+        
+        git checkout -b nome_da_nova_branch
+        
+        Exemplo: git checkout -b fix_botao_da_tela_login
+        
+        Obs: O ideal é sempre criar as branchs a partir do main.
+        
+        <br>
+        
+        ### Listar as branchs existentes
+        
+        git branch list
+        
+        
+        <br>
+        ### Trocar de branch
+        
+        git switch nome_da_branch_que_deseja_entrar
+        
+        Exemplo 01: git switch fix_botao_da_tela_login
+        
+        Exemplo 02: git switch main
+        
+        <br>
+        
+        ### Excluir uma branch
+        
+        git branch -D nome_da_branch_que_deseja_excluir
+        
+        Exemplo: git branch -D fix_botao_da_tela_login
+
+
+
+
+
+
+
+    </p>
+    
+</body>
+</html>
